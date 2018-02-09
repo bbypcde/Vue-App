@@ -1,5 +1,5 @@
 <template>
-    <div>
+    <div >
         <swipe class="my-swipe">
             <swipe-item class="slide1"></swipe-item>
             <swipe-item class="slide2"></swipe-item>
@@ -25,20 +25,27 @@
 </script>
 
 <style scoped>
+
 .my-swipe {
-  height: 200px;
+ 
+  height: 400px;
+ 
 }
 
 .slide1 {
-  background-color: #0089dc;
+  /* background-color: #0089dc; */
+  background: url("/static/img/1.jpg") 0/cover no-repeat;
 }
 
 .slide2 {
-  background-color: #ffd705;
+  /* background-color: #ffd705; */
+   background: url("/static/img/2.jpg") 0/cover no-repeat;
+
 }
 
 .slide3 {
-  background-color: #ff2d4b;
+  /* background-color: #ff2d4b; */
+   background: url("/static/img/3.jpg") 0/cover no-repeat;
 }
 
 </style>
