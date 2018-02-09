@@ -25,11 +25,8 @@
 </script>
 
 <style scoped>
-
 .my-swipe {
- 
   height: 400px;
- 
 }
 
 .slide1 {
